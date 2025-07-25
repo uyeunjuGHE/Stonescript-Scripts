@@ -1,0 +1,14 @@
+?foe.distance > 30 & harvest.distance > 7
+ equipL quest
+ equipR towering
+ :?foe.distance < 30
+  ?foe.armor > 0|foe.count >= 2 & foe ! boss
+  equip heavy hammer
+  :
+  equipL big
+  equipR towering
+
+?HealthRatio >= 2
+ equipL big
+ ?time >= 10
+  activate Potion
