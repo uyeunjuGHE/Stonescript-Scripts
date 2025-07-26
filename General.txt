@@ -10,9 +10,9 @@
   equipL big
   equipR towering
 
-
+/*
 ?HealthRatio >= 2
  equipL big
  ?time >= 10
   activate Potion
-
+*/
